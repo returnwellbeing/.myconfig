@@ -1,0 +1,39 @@
+[submodule ".dircolors-solarized"]
+	path = .dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
+[submodule ".dircolors-zenburn"]
+	path = .dircolors-zenburn
+	url = https://github.com/ivoarch/dircolors-zenburn.git
+[submodule ".oh-my-zsh"]
+	path = .oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule ".gitignore_template"]
+	path = .gitignore_template
+	url = https://github.com/github/gitignore.git
+[submodule ".vim_source"]
+	path = .vim_source
+	url = https://github.com/vim/vim.git
+[submodule ".vim/bundle/Vundle.vim"]
+	path = .vim/bundle/Vundle.vim
+	url = https://github.com/VundleVim/Vundle.vim.git
+[submodule ".vim/bundle/YouCompleteMe"]
+	path = .vim/bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule ".vim/bundle/YCM-Generator"]
+	path = .vim/bundle/YCM-Generator
+	url = https://github.com/rdnetto/YCM-Generator.git
+[submodule ".vim/bundle/Zenburn"]
+	path = .vim/bundle/Zenburn
+	url = https://github.com/jnurmine/Zenburn.git
+[submodule ".vim/bundle/nerdtree"]
+	path = .vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/syntastic"]
+	path = .vim/bundle/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-clang-format"]
+	path = .vim/bundle/vim-clang-format
+	url = https://github.com/rhysd/vim-clang-format.git
