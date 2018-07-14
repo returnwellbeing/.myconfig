@@ -30,11 +30,13 @@ Plugin 'altercation/vim-colors-solarized'
 " clang-format
 Plugin 'rhysd/vim-clang-format'
 
+Plugin 'instant-markdown.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
-"filetype plugin on
+filetype plugin on
 "
 " Brief help
 " :PluginList       - lists configured plugins
@@ -122,5 +124,15 @@ nnoremap <leader>d :YcmCompleter GoToDeclaration<CR>
 nnoremap <leader>t :YcmCompleter GetType<CR>
 nnoremap <leader>p :YcmCompleter GetParent<CR>
 nnoremap <leader>f :YcmCompleter FixIt<CR>
-
 ""YCM SETTING END
+
+""VIM INSTANT MARKDOWN START
+"https://github.com/suan/vim-instant-markdown
+let g:instant_markdown_autostart = 0	" disable autostart
+map <leader>md :InstantMarkdownPreview<CR>
+""VIM INSTANT MARKDOWN END
+
+""REMOVE WHITE SPACE START
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
+""REMOVE WHITE SPACE END
