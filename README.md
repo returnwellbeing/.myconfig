@@ -1,7 +1,9 @@
 # 일단 땡깁시다
-git clone --recursive https://github.com/returnwellbeing/.myconfig.git .myconfig
+sudo apt-get install git
 
-./set.sh
+sudo git clone --recursive https://github.com/returnwellbeing/.myconfig.git .myconfig
+
+sudo ./set.sh
 
 # vim-markdown 설정
 참고 : https://www.youtube.com/watch?v=NqKDUxp5wsA
@@ -28,11 +30,11 @@ default background : 58/58/58 <- vim배경이랑 안맞아서
 
 # ubuntu 터미널 설정
 ## 터미널 색상 변경 및 폰트 설치
-git clone https://github.com/powerline/fonts powerline
+sudo git clone https://github.com/powerline/fonts powerline
 
-mv powerline /usr/share/fonts/powerline
+sudo mv powerline /usr/share/fonts/powerline
 
-apt-get install dconf-editor
+sudo apt-get install dconf-editor
 
 root가 아닌 일반유저로 터미널에서 dconf-editor 실행
 org > gnome > terminal > legacy > profiles : 에서 수정
@@ -65,6 +67,11 @@ rgb(131,145,150)
 
 name~~~
 
-![20170720_194109](https://user-images.githubusercontent.com/25244851/43644065-5a1cb58a-9768-11e8-8142-97cdb839b615.jpg)
+![screenshot from 2018-08-04 00-18-12](https://user-images.githubusercontent.com/25244851/43654356-ee31f2b8-9785-11e8-81b8-dee738abdb71.png)
 
+![screenshot from 2018-08-04 01-29-26](https://user-images.githubusercontent.com/25244851/43654361-f1f4b3fe-9785-11e8-8a4c-445c55ec0479.png)
+
+![screenshot from 2018-08-04 00-33-28](https://user-images.githubusercontent.com/25244851/43654368-f3df9170-9785-11e8-83bd-215b832b44f3.png)
+
+![20170720_194109](https://user-images.githubusercontent.com/25244851/43644065-5a1cb58a-9768-11e8-8142-97cdb839b615.jpg)
 
