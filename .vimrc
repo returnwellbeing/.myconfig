@@ -30,6 +30,7 @@ Plugin 'altercation/vim-colors-solarized'
 " clang-format
 Plugin 'rhysd/vim-clang-format'
 
+" markdown
 Plugin 'instant-markdown.vim'
 
 " All of your Plugins must be added before the following line
@@ -91,7 +92,7 @@ set smarttab
 "set tabstop=2
 set ruler " 현재 커서 위치 표시
 set incsearch
-set tags=./tags,./../tags,./../../tags,./../../../tags,/root/audit-userspace/tags,/root/wine-2.0.2/tags,tags
+set tags=./tags,./../tags,./../../tags,./../../../tags,tags
 ""set tags=./tags,./../tags,./../../tags,./../../../tags,/root/work/trunk/src/tags,/root/audit-userspace/tags,tags
 set tabstop=2
 set shiftwidth=2
