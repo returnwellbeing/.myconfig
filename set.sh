@@ -15,6 +15,9 @@ cmake \
 build-essential \
 ncurses-dev \
 texinfo \
+xdg-utils \
+curl \
+nodejs
 
 #sym link
 ln -rs ./.vimrc ~/
