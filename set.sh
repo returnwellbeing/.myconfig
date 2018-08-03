@@ -17,7 +17,6 @@ ncurses-dev \
 texinfo \
 
 #sym link
-ln -rs ./.gdbinit ~/
 ln -rs ./.vimrc ~/
 ln -rs ./.zshrc ~/
 ln -rs ./.dircolors-zenburn ~/
