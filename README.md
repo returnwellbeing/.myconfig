@@ -1,9 +1,9 @@
 # 일단 땡깁시다
 sudo apt-get install git
 
-sudo git clone --recursive https://github.com/returnwellbeing/.myconfig.git .myconfig
+git clone --recursive https://github.com/returnwellbeing/.myconfig.git .myconfig
 
-sudo ./set.sh
+./set.sh
 
 # vim-markdown 설정
 참고 : https://www.youtube.com/watch?v=NqKDUxp5wsA
