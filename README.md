@@ -39,33 +39,19 @@ sudo apt-get install dconf-editor
 root가 아닌 일반유저로 터미널에서 dconf-editor 실행
 org > gnome > terminal > legacy > profiles : 에서 수정
 
-rgb(58,58,58)
+background-color : rgb(58,58,58)
 
-rgb(147,161,161)
+bold-color : rgb(147,161,161)
 
-거짓
+cursor-background-color : rgb(0,255,0)
 
-rgb(0,255,0)
-
-참
-
-rgb(0,255,0)
+cursor-foreground-color : rgb(0,255,0)
 
 DejaVu Sans Mono for Powerline 14
 
-rgb(131,145,150)
-
-거짓
+foreground-color : rgb(131,145,150)
 
 ['rgb(77,77,77)', 'rgb(187,0,0)', 'rgb(152,251,152)', 'rgb(240,230,140)', 'rgb(150,133,63)', 'rgb(255,222,173)', 'rgb(255,160,160)', 'rgb(245,222,179)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(135,206,235)', 'rgb(255,85,255)', 'rgb(255,215,0)', 'rgb(255,255,255)']
-
-거짓
-
-거짓
-
-거짓
-
-name~~~
 
 ![screenshot from 2018-08-04 00-18-12](https://user-images.githubusercontent.com/25244851/43654356-ee31f2b8-9785-11e8-81b8-dee738abdb71.png)
 
@@ -75,3 +61,10 @@ name~~~
 
 ![20170720_194109](https://user-images.githubusercontent.com/25244851/43644065-5a1cb58a-9768-11e8-8142-97cdb839b615.jpg)
 
+![00](https://user-images.githubusercontent.com/25244851/43709123-fe846e2a-99a6-11e8-8652-28ebdd91be14.png)
+
+![01](https://user-images.githubusercontent.com/25244851/43709126-00e0d5a0-99a7-11e8-9b46-67c004a6b805.png)
+
+![02](https://user-images.githubusercontent.com/25244851/43709129-0238e316-99a7-11e8-9bfe-ba103126c704.png)
+
+![03](https://user-images.githubusercontent.com/25244851/43709132-036869aa-99a7-11e8-9866-02daa0660fb1.png)
