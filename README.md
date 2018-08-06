@@ -30,7 +30,7 @@ default background : 58/58/58 <- vim배경이랑 안맞아서
 
 # ubuntu 터미널 설정
 ## 터미널 색상 변경 및 폰트 설치
-sudo git clone https://github.com/powerline/fonts powerline
+git clone https://github.com/powerline/fonts powerline
 
 sudo mv powerline /usr/share/fonts/powerline
 
