@@ -19,6 +19,12 @@ xdg-utils \
 curl \
 nodejs
 
+#git my_submodule
+git clone https://github.com/robbyrussell/oh-my-zsh.git .oh-my-zsh
+git clone https://github.com/github/gitignore.git .gitignore_template
+git clone https://github.com/vim/vim.git .vim_source
+git clone https://github.com/VundleVim/Vundle.vim.git ./.vim/bundle/Vundle.vim
+
 #sym link
 ln -rs ./.vimrc ~/
 ln -rs ./.zshrc ~/
