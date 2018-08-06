@@ -38,4 +38,4 @@ cd ..
 
 cd ./.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
-cd ....
+cd ../../..
