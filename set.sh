@@ -36,6 +36,9 @@ cd ./.vim_source
 make install
 cd ..
 
+#vim plugin install
+vim +PluginInstall +qall
+
 cd ./.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 cd ../../..
