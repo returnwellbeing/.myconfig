@@ -37,3 +37,6 @@
 [submodule ".vim/bundle/vim-clang-format"]
 	path = .vim/bundle/vim-clang-format
 	url = https://github.com/rhysd/vim-clang-format.git
+[submodule ".vim/bundle/instant-markdown.vim"]
+	path = .vim/bundle/instant-markdown.vim
+	url = https://github.com/vim-scripts/instant-markdown.vim.git
