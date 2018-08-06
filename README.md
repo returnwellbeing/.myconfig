@@ -1,7 +1,7 @@
 # 일단 땡깁시다
 sudo apt-get install git
 
-git clone --recursive https://github.com/returnwellbeing/.myconfig.git .myconfig
+git clone https://github.com/returnwellbeing/.myconfig.git .myconfig
 
 ./set.sh
 
