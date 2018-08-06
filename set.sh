@@ -24,12 +24,11 @@ git clone https://github.com/robbyrussell/oh-my-zsh.git .oh-my-zsh
 git clone https://github.com/github/gitignore.git .gitignore_template
 git clone https://github.com/vim/vim.git .vim_source
 git clone https://github.com/VundleVim/Vundle.vim.git ./.vim/bundle/Vundle.vim
+git clone https://github.com/jnurmine/Zenburn.git ./.vim/bundle/Zenburn
 
 #sym link
 ln -rs ./.vimrc ~/
 ln -rs ./.zshrc ~/
-ln -rs ./.dircolors-zenburn ~/
-ln -rs ./.dircolors-solarized ~/
 ln -rs ./.vim ~/
 ln -rs ./.oh-my-zsh ~/
 ln -rs ./.tmux.conf ~/
