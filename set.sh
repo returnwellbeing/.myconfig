@@ -1,24 +1,5 @@
 #! /bin/bash
 
-#pkg install
-apt-get install -y git \
-tmux \
-zsh \
-python \
-python-dev \
-python2.7-dev \
-python3-dev \
-clang \
-gcc \
-clang-format \
-cmake \
-build-essential \
-ncurses-dev \
-texinfo \
-xdg-utils \
-curl \
-nodejs
-
 #git my_submodule
 git clone https://github.com/robbyrussell/oh-my-zsh.git .oh-my-zsh
 git clone https://github.com/github/gitignore.git .gitignore_template
