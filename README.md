@@ -1,7 +1,15 @@
+# ZSH + TMUX + VIM 환경구축을 위해 달려봅시다
+
 # 일단 땡깁시다
-sudo apt-get install git
+sudo apt install -y git zsh
+
+chsh -s /usr/bin/zsh
 
 git clone https://github.com/returnwellbeing/.myconfig.git .myconfig
+
+cd .myconfig
+
+sudo ./pkg_install.sh
 
 ./set.sh
 
