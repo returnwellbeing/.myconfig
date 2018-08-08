@@ -1,30 +1,22 @@
 # ZSH + TMUX + VIM 환경구축을 위해 달려봅시다
 
 # 일단 땡깁시다
-sudo apt install -y git zsh
-
-chsh -s /usr/bin/zsh
+sudo apt install -y git 
 
 git clone https://github.com/returnwellbeing/.myconfig.git .myconfig
 
 cd .myconfig
 
-sudo ./pkg_install.sh
+sudo ./set.sh
 
-./set.sh
-
-sudo ln -rs ./powerline /usr/share/fonts/powerline
-
-# vim-markdown 설정
+# vim-markdown
 참고 : https://www.youtube.com/watch?v=NqKDUxp5wsA
 
 참고 : https://github.com/suan/vim-instant-markdown
 
-sudo npm -g install instant-markdown-d
-
 vi test.md
 
-:InstantMarkdownPreview (단축키는 .vimrc 참고)
+:InstantMarkdownPreview (단축키는 tap+md)
 
 브라우저 -> http://localhost:8090
 
