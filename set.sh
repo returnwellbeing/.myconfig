@@ -77,6 +77,7 @@ done
 sudo -u $real_user mv Vundle.vim .vim/bundle/Vundle.vim
 sudo -u $real_user mv Zenburn .vim/bundle/Zenburn
 sudo -u $real_user mv oh-my-zsh .oh-my-zsh
+move fonts /usr/share/fonts/powerline
 echo "=== GIT CLONE END ==="
 
 
@@ -117,7 +118,5 @@ echo "=== VIM PLUGIN INSTALL END ==="
 
 ### DCONF EDIT ###
 echo "=== DCONF EDIT START ==="
-ln -s $BASEDIR/fonts /usr/share/fonts/powerline
-
 sudo -u $real_user dconf load /org/gnome/terminal/legacy/profiles:/ < ./.terminal.dconf
 echo "=== DCONF EDIT END ==="

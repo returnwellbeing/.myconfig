@@ -9,6 +9,8 @@ cd .myconfig
 
 sudo ./set.sh
 
+재로그인
+
 # putty 설정
 
 putty tray & session 다운로드
