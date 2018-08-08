@@ -6,6 +6,7 @@ git clone https://github.com/github/gitignore.git .gitignore_template
 git clone https://github.com/vim/vim.git .vim_source
 git clone https://github.com/VundleVim/Vundle.vim.git ./.vim/bundle/Vundle.vim
 git clone https://github.com/jnurmine/Zenburn.git ./.vim/bundle/Zenburn
+git clone https://github.com/powerline/fonts powerline
 
 #sym link
 ln -rs ./.vimrc ~/
