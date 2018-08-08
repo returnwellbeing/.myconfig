@@ -14,6 +14,7 @@ cmake \
 build-essential \
 ncurses-dev \
 texinfo \
+npm \
 xdg-utils \
 curl \
 nodejs \

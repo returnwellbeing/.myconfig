@@ -26,7 +26,7 @@ vi test.md
 
 :InstantMarkdownPreview (단축키는 .vimrc 참고)
 
-http://localhost:8090
+브라우저 -> http://localhost:8090
 
 # putty 설정
 
