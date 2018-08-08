@@ -130,7 +130,7 @@ nnoremap <leader>f :YcmCompleter FixIt<CR>
 ""VIM INSTANT MARKDOWN START
 "https://github.com/suan/vim-instant-markdown
 let g:instant_markdown_autostart = 0	" disable autostart
-map <leader>md :InstantMarkdownPreview<CR>
+nnoremap <leader>md :InstantMarkdownPreview<CR>
 ""VIM INSTANT MARKDOWN END
 
 ""REMOVE WHITE SPACE START
