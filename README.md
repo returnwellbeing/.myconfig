@@ -11,6 +11,8 @@ cd .myconfig
 
 sudo ./pkg_install.sh
 
+sudo ./vim_install.sh
+
 ./set.sh
 
 sudo ln -rs ./powerline /usr/share/fonts/powerline
