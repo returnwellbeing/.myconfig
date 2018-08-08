@@ -18,6 +18,8 @@ sudo ./pkg_install.sh
 
 참고 : https://github.com/suan/vim-instant-markdown
 
+sudo npm -g install instant-markdown-d
+
 vi test.md
 
 :InstantMarkdownPreview (단축키는 .vimrc 참고)

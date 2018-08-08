@@ -1,0 +1,17 @@
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='rgb(131,148,150)'
+visible-name='myTerminal'
+palette=['rgb(77,77,77)', 'rgb(187,0,0)', 'rgb(152,251,152)', 'rgb(240,230,140)', 'rgb(150,133,63)', 'rgb(255,222,173)', 'rgb(255,160,160)', 'rgb(245,222,179)', 'rgb(85,85,85)', 'rgb(255,85,85)', 'rgb(85,255,85)', 'rgb(255,255,85)', 'rgb(135,206,235)', 'rgb(255,85,255)', 'rgb(255,215,0)', 'rgb(255,255,255)']
+bold-is-bright=true
+cursor-background-color='rgb(0,255,0)'
+use-system-font=false
+highlight-colors-set=false
+use-theme-colors=false
+cursor-foreground-color='rgb(0,255,0)'
+font='DejaVu Sans Mono for Powerline 14'
+use-theme-transparency=true
+bold-color='rgb(147,161,161)'
+background-color='rgb(58,58,58)'
+
+[/]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']

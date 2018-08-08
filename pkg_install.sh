@@ -16,4 +16,5 @@ ncurses-dev \
 texinfo \
 xdg-utils \
 curl \
-nodejs
+nodejs \
+dconf-editor

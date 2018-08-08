@@ -28,3 +28,6 @@ vim +PluginInstall +qall
 cd ./.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 cd ../../..
+
+#dconf load
+dconf load /org/gnome/terminal/legacy/profiles:/ < ./.terminal.dconf
