@@ -77,7 +77,7 @@ done
 sudo -u $real_user mv Vundle.vim .vim/bundle/Vundle.vim
 sudo -u $real_user mv Zenburn .vim/bundle/Zenburn
 sudo -u $real_user mv oh-my-zsh .oh-my-zsh
-move fonts /usr/share/fonts/powerline
+mv fonts /usr/share/fonts/powerline
 echo "=== GIT CLONE END ==="
 
 
