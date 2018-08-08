@@ -16,13 +16,6 @@ ln -rs ./.oh-my-zsh ~/
 ln -rs ./.tmux.conf ~/
 ln -rs ./.tmux.conf.local ~/
 
-#vim compile
-cd ./.vim_source
-./configure --enable-pythoninterp \
---with-python-config-dir=/usr/lib/python2.7/config
-make install
-cd ..
-
 #vim plugin install
 vim +PluginInstall +qall
 
