@@ -7,7 +7,15 @@ git clone https://github.com/returnwellbeing/.myconfig.git .myconfig
 
 cd .myconfig
 
+<<<<<<< HEAD
 sudo ./set.sh
+=======
+sudo ./pkg_install.sh
+
+sudo ./vim_install.sh
+
+./set.sh
+>>>>>>> 522da973dcc7b901aa074abce125ccdb50fb6d83
 
 # vim-markdown
 참고 : https://www.youtube.com/watch?v=NqKDUxp5wsA
