@@ -49,7 +49,7 @@ echo "=== PKG INSTALL START ==="
 for pkg_element in ${pkg_array[@]}
 do
   echo "installing $pkg_element"
-  apt-get install $pkg_element
+  apt-get install -y $pkg_element
 done
 echo "=== PKG INSTALL END ==="
 
