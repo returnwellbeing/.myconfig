@@ -88,7 +88,8 @@ sym_array=( ".vimrc"
             ".vim"
             ".tmux.conf"
             ".tmux.conf.local"
-            ".oh-my-zsh")
+            ".oh-my-zsh"
+            ".gitconfig")
 
 for sym_element in ${sym_array[@]}
 do
