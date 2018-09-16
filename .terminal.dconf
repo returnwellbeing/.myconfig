@@ -12,3 +12,4 @@ font='DejaVu Sans Mono for Powerline 14'
 use-theme-transparency=true
 bold-color='rgb(147,161,161)'
 background-color='rgb(58,58,58)'
+audible-bell=false
