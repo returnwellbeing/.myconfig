@@ -47,11 +47,12 @@ alias tls='tmux ls'
 alias tkill='tmux kill-session -t'
 
 #function for python
-pnew() {
-  python3 -m venv $PY_ENV/"$1"
-}
 pa() {
   source $PY_ENV/"$1"/bin/activate
+}
+pnew() {
+  python3 -m venv $PY_ENV/"$1"
+  pa "$1"
 }
 pls() {
   ls $PY_ENV
