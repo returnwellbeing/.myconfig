@@ -122,3 +122,9 @@ echo "=== DCONF EDIT START ==="
 #sudo -u $real_user dconf load /org/gnome/terminal/legacy/profiles:/ < ./.terminal.dconf
 su $real_user -c "dconf load /org/gnome/terminal/legacy/profiles:/ < ./.terminal.dconf"
 echo "=== DCONF EDIT END ==="
+
+### PYTHON VIRTUAL ENVIRONMENT
+echo "=== PYTHON VIRTUAL ENV SETTING START ==="
+sudo -u $real_user mkdir ~/.mypython
+sudo -u $real_user cp $BASEDIR/.agnoster_py.zsh-theme ~/.oh-my-zsh/
+echo "=== PYTHON VIRTUAL ENV SETTING END ==="
