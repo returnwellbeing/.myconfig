@@ -26,7 +26,7 @@ BASEDIR=$PWD
 
 ### PKG INSTALL ###
 pkg_array=( "tmux"
-            "zsh" 
+            "zsh"
             "python"
             "python-dev"
             "python2.7-dev"
@@ -38,10 +38,10 @@ pkg_array=( "tmux"
             "cmake"
             "build-essential"
             "ncurses-dev"
-            "texinfo" 
-            "npm" 
-            "xdg-utils" 
-            "curl" 
+            "texinfo"
+            "npm"
+            "xdg-utils"
+            "curl"
             "nodejs"
             "dconf-editor")
 
@@ -66,7 +66,7 @@ git_array=( "https://github.com/robbyrussell/oh-my-zsh.git"
             "https://github.com/jnurmine/Zenburn.git"
             "https://github.com/powerline/fonts")
 
-sudo -u $real_user mkdir .vim 
+sudo -u $real_user mkdir .vim
 sudo -u $real_user mkdir .vim/bundle
 
 for git_element in ${git_array[@]}
@@ -75,9 +75,13 @@ do
   sudo -u $real_user git clone $git_element
 done
 
+sudo -u $real_user rm -rf .vim/bundle/Vundle.vim
 sudo -u $real_user mv Vundle.vim .vim/bundle/Vundle.vim
+sudo -u $real_user rm -rf .vim/bundle/Zenburn
 sudo -u $real_user mv Zenburn .vim/bundle/Zenburn
+sudo -u $real_user rm -rf .oh-my-zsh
 sudo -u $real_user mv oh-my-zsh .oh-my-zsh
+rm -rf /usr/share/fonts/powerline
 mv fonts /usr/share/fonts/powerline
 echo "=== GIT CLONE END ==="
 
@@ -95,6 +99,8 @@ sym_array=( ".vimrc"
 for sym_element in ${sym_array[@]}
 do
   echo "creating $sym_element 's symbolic link"
+#  sudo -u $real_user rm ~/$sym_element
+  sudo -u $real_user mv ~/$sym_element ~/$sym_element.bak
   sudo -u $real_user ln -s $BASEDIR/$sym_element ~/
 done
 echo "=== CREATE SYMBOLIC LINK END ==="
@@ -127,5 +133,5 @@ echo "=== DCONF EDIT END ==="
 ### PYTHON VIRTUAL ENVIRONMENT
 echo "=== PYTHON VIRTUAL ENV SETTING START ==="
 sudo -u $real_user mkdir ~/.mypython
-sudo -u $real_user cp $BASEDIR/.agnoster_py.zsh-theme ~/.oh-my-zsh/themes
+sudo -u $real_user cp $BASEDIR/.agnoster_py.zsh-theme ~/.oh-my-zsh/themes/
 echo "=== PYTHON VIRTUAL ENV SETTING END ==="
