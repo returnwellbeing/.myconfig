@@ -127,5 +127,5 @@ echo "=== DCONF EDIT END ==="
 ### PYTHON VIRTUAL ENVIRONMENT
 echo "=== PYTHON VIRTUAL ENV SETTING START ==="
 sudo -u $real_user mkdir ~/.mypython
-sudo -u $real_user cp $BASEDIR/.agnoster_py.zsh-theme ~/.oh-my-zsh/
+sudo -u $real_user cp $BASEDIR/.agnoster_py.zsh-theme ~/.oh-my-zsh/themes
 echo "=== PYTHON VIRTUAL ENV SETTING END ==="
