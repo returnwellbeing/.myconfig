@@ -110,8 +110,7 @@ set csverb
 ""CSCOPE SETTING END
 
 ""YCM SETTING START
-
-let g:ycm_global_ycm_extra_conf = '/root/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
 
 "To avoid conflict snippets
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
