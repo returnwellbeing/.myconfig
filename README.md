@@ -1,22 +1,34 @@
-# ZSH + TMUX + VIM
+# 우분투 환경 설정
 
-# set.sh
-sudo apt install -y git 
+## 설치방법
+(option 1) 한방에 설치하기
+```
+sudo ./set0.sh
+```
+(option 2) 권한 유무에 따라 나눠 설치하기
+```
+sudo ./need_sudo.sh
+./non_sudo.sh
+```
+(option 3) 한단계씩 직접 설치하기
+```
+sudo ./install_pkg.sh
+sudo ./change_shell.sh
 
-git clone https://github.com/returnwellbeing/.myconfig.git .myconfig
+./git_clone.sh
+./create_symlink.sh
+./install_vim.sh
+./install_vimPlugin.sh
+./edit_dconf.sh
+./python_virEnv.sh
+```
 
-cd .myconfig
-
-sudo ./set.sh
-
-재로그인
-
-# putty 설정
+## putty 설정
 
 putty tray & session 다운로드
 
 https://github.com/returnwellbeing/.myconfig/blob/master/PUTTY.zip
 
-# ubuntu 터미널 설정
+## ubuntu 터미널 설정
 
 터미널 > Edit > Preferences > myTerminal 선택
