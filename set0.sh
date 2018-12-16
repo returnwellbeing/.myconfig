@@ -16,6 +16,7 @@ BASEDIR=$PWD
 
 ./install_pkg.sh
 ./change_shell.sh
+./install_npm.sh
 
 sudo -u $real_user ./git_clone.sh
 sudo -u $real_user ./create_symlink.sh

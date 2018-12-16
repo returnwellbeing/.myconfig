@@ -13,7 +13,6 @@ fi
 
 BASEDIR=$PWD
 
-
-./install_pkg.sh
-./change_shell.sh
-./install_npm.sh
+echo "=== NPM MARKDOWN INSTALL START ==="
+npm -g install instant-markdown-d
+echo "=== NPM MARKDOWN INSTALL END==="
