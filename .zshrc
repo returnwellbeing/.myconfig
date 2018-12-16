@@ -57,6 +57,9 @@ pnew() {
 pls() {
   ls $PY_ENV
 }
+pdel() {
+  rm -rf $PY_ENV/$1
+}
 
 # ZSH ALIAS END
 
