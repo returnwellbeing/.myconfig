@@ -15,5 +15,4 @@ cd $BASEDIR/vim
 
 make install
 cd $BASEDIR
-export PATH="$HOME/.local/bin:$PATH"
 echo "=== VIM PYTHON ENABLED INSTALL END ==="
