@@ -14,6 +14,7 @@ sudo ./need_sudo.sh
 ```
 sudo ./install_pkg.sh
 sudo ./change_shell.sh
+sudo ./install_npm.sh
 
 ./git_clone.sh
 ./create_symlink.sh
