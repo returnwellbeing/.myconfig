@@ -14,6 +14,6 @@ fi
 BASEDIR=$PWD
 
 echo "=== CHANGE LOGIN-SHELL START ==="
-chsh -s /usr/bin/zsh $real_user
+chsh -s /usr/local/bin/zsh $real_user
 echo "=== From the next login, the login shell will change to zsh ==="
 echo "=== CHANGE LOGIN-SHELL END ==="
