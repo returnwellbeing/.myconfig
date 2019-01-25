@@ -101,16 +101,18 @@ set smartindent
 set autoindent
 set ignorecase " 대소문자 구분없이 검색
 ""CSCOPE SETTING START
-set csprg=/usr/local/bin/cscope
+set csprg=/usr/bin/cscope
 set csto=0
 set cst
 set nocsverb
-cs add /usr/cscope.out /usr
+"cs add /usr/cscope.out /usr
+cs add /usr/src/linux-source-3.16/cscope.out
 set csverb
 ""CSCOPE SETTING END
 
 ""YCM SETTING START
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.myconfig/.ycm_extra_conf.py'
 
 "To avoid conflict snippets
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
