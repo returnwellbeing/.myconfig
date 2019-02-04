@@ -16,4 +16,3 @@ BASEDIR=$PWD
 
 ./install_pkg.sh
 ./change_shell.sh
-./install_npm.sh

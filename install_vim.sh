@@ -8,8 +8,6 @@ cd $BASEDIR/vim
 ./configure \
 --prefix=$HOME/.local \
 --enable-cscope \
---with-features=huge \
---with-x \
 --enable-pythoninterp \
 --with-python-config-dir=/usr/lib/python2.7/config
 
