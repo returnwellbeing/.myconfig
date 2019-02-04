@@ -1,4 +1,4 @@
-# 우분투 환경 설정
+# 데비안 환경 설정
 
 ## 설치방법
 (option 1) 한방에 설치하기
@@ -29,7 +29,3 @@ sudo ./install_npm.sh
 putty tray & session 다운로드
 
 https://github.com/returnwellbeing/.myconfig/blob/master/PUTTY.zip
-
-## ubuntu 터미널 설정
-
-터미널 > Edit > Preferences > myTerminal 선택
