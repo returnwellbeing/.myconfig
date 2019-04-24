@@ -142,7 +142,16 @@ ZSH_THEME=".agnoster_py" #awesome with python virenv
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  git
+  fast-syntax-highlighting
+  autojump
+  alias-tips
+)
+
+[[ -s $HOME/.autojump/etc/profile.d/autojump.sh ]] && source $HOME/.autojump/etc/profile.d/autojump.sh
+
+autoload -U compinit && compinit -u
 
 source $ZSH/oh-my-zsh.sh
 
