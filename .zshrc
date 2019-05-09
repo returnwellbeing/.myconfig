@@ -145,7 +145,6 @@ ZSH_THEME=".agnoster_py" #awesome with python virenv
 plugins=(
   git
   fast-syntax-highlighting
-  autojump
   alias-tips
 )
 

@@ -44,7 +44,8 @@ pkg_array=( "tmux"
             "libcairo2-dev"
             "libx11-dev"
             "libxpm-dev"
-            "libxt-dev")
+            "libxt-dev"
+            "fzy")
 
 
 echo "=== PKG INSTALL START ==="
