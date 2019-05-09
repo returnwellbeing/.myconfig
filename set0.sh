@@ -18,9 +18,4 @@ BASEDIR=$PWD
 ./change_shell.sh
 ./install_npm.sh
 
-sudo -u $real_user ./git_clone.sh
-sudo -u $real_user ./create_symlink.sh
-sudo -u $real_user ./install_vim.sh
-sudo -u $real_user ./install_vimPlugin.sh
-sudo -u $real_user ./python_virEnv.sh
-su $real_user -c "./edit_dconf.sh"
+su $real_user -c "./non_sudo.sh"
