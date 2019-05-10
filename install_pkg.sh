@@ -45,7 +45,14 @@ pkg_array=( "tmux"
             "libx11-dev"
             "libxpm-dev"
             "libxt-dev"
-            "fzy")
+            "fzy"
+            "libelf-dev"
+            "qemu-kvm"
+            "qemu"
+            "virt-manager"
+            "virt-viewer"
+            "libvirt-bin"
+            "htop")
 
 
 echo "=== PKG INSTALL START ==="
