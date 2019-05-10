@@ -1,7 +1,7 @@
 #! /bin/bash
 
 if ! [ $(id -u) = 0 ]; then
-  echo "The script need to be run as root." >&2
+  echo "The script need to be run SUDO" >&2
   exit 1
 fi
 
@@ -14,8 +14,6 @@ fi
 BASEDIR=$PWD
 
 
-./install_pkg.sh
-./change_shell.sh
-./install_npm.sh
+./need_sudo.sh
 
 su $real_user -c "./non_sudo.sh"
