@@ -52,7 +52,10 @@ pkg_array=( "tmux"
             "virt-manager"
             "virt-viewer"
             "libvirt-bin"
-            "htop")
+            "htop"
+            "ctags"
+            "cscope")
+
 
 
 echo "=== PKG INSTALL START ==="
