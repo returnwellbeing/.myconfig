@@ -148,10 +148,6 @@ plugins=(
   alias-tips
 )
 
-[[ -s $HOME/.autojump/etc/profile.d/autojump.sh ]] && source $HOME/.autojump/etc/profile.d/autojump.sh
-
-autoload -U compinit && compinit -u
-
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
