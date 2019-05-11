@@ -54,7 +54,12 @@ pkg_array=( "tmux"
             "libvirt-bin"
             "htop"
             "ctags"
-            "cscope")
+            "cscope"
+            "bison"
+            "flex"
+            "libssl-dev"
+            )
+
 
 
 
