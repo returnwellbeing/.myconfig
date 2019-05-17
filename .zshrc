@@ -1,3 +1,7 @@
+#CSCOPE ENV START
+export CSCOPE_DB=$HOME/test.kern/linux-5.1/cscope.out
+#CSCOPE ENV ENd
+
 #PYTHON VIRTUAL ENV START
 export PY_ENV="$HOME/.mypython"
 #PYTHON VIRTUAL ENV END
@@ -36,8 +40,10 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib:/usr/local/lib:/usr/local/llvm38/li
 #ZSH ALIAS START
 alias vi='vim'
 alias g11='g++ -std=c++11 -g'
-alias cds='cd ~/work/trunk/src'
-alias win='xmodmap -e "keycode 102 = Super_L"'
+alias jos='jobs'
+alias vv='vi ~/.vimrc'
+alias vz='vi ~/.zshrc'
+
 
 #alias for Tmux
 alias tmux='tmux -2'
@@ -74,7 +80,7 @@ export TERM="xterm-256color"
 #export TERM="xterm"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$PATH
+export PATH=/usr/lib/ccache:$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh

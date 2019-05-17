@@ -106,7 +106,8 @@ set csto=0
 set cst
 set nocsverb
 "cs add /usr/cscope.out /usr
-cs add /usr/src/linux-source-3.16/cscope.out
+"cs add ~/test.kern/linux-5.1/cscope.out
+cs add $CSCOPE_DB " .zshrc 환경변수
 set csverb
 ""CSCOPE SETTING END
 
