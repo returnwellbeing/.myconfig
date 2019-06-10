@@ -30,9 +30,6 @@ Plugin 'altercation/vim-colors-solarized'
 " clang-format
 Plugin 'rhysd/vim-clang-format'
 
-" markdown
-Plugin 'instant-markdown.vim'
-
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -107,7 +104,7 @@ set cst
 set nocsverb
 "cs add /usr/cscope.out /usr
 "cs add ~/test.kern/linux-5.1/cscope.out
-cs add $CSCOPE_DB " .zshrc 환경변수
+cs add $CSCOPE_DB
 set csverb
 ""CSCOPE SETTING END
 
@@ -128,12 +125,6 @@ nnoremap <leader>t :YcmCompleter GetType<CR>
 nnoremap <leader>p :YcmCompleter GetParent<CR>
 nnoremap <leader>f :YcmCompleter FixIt<CR>
 ""YCM SETTING END
-
-""VIM INSTANT MARKDOWN START
-"https://github.com/suan/vim-instant-markdown
-let g:instant_markdown_autostart = 0	" disable autostart
-nnoremap <leader>md :InstantMarkdownPreview<CR>
-""VIM INSTANT MARKDOWN END
 
 ""REMOVE WHITE SPACE START
 "Remove all trailing whitespace by pressing F5
