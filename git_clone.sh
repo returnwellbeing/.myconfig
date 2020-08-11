@@ -11,7 +11,9 @@ git_url_array=( "https://github.com/robbyrussell/oh-my-zsh.git"
             "https://github.com/jnurmine/Zenburn.git"
             "https://github.com/powerline/fonts.git"
             "https://github.com/zdharma/fast-syntax-highlighting.git"
-            "https://github.com/djui/alias-tips.git")
+            "https://github.com/djui/alias-tips.git"
+            "https://github.com/jenv/jenv.git"
+            )
 
 regacy_dir_array=( "oh-my-zsh"
             "gitignore"
@@ -47,5 +49,6 @@ mv Zenburn .vim/bundle/Zenburn
 mv oh-my-zsh .oh-my-zsh
 mv fast-syntax-highlighting .oh-my-zsh/custom/plugins/fast-syntax-highlighting
 mv alias-tips .oh-my-zsh/custom/plugins/alias-tips
-mv fonts .fonts 
+mv fonts .fonts
+mv jenv ~/.jenv
 echo "=== GIT CLONE END ==="

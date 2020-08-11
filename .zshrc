@@ -16,13 +16,6 @@ export LANG="ko_KR.UTF-8"
 export LC_ALL="ko_KR.UTF-8"
 # FOR KOREAN END
 
-#YCM SETTTING START
-#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib:/usr/local/lib:/usr/local/llvm38/lib/:/system/lib
-#export LD_LIBRARY_PATH=/root/audit-userspace/lib:$LD_LIBRARY_PATH:/lib:/usr/local/llvm38/lib/:/system/lib
-#YCM SETTING END
-
-#LANG=en_US.UTF-8
-
 #ZSH ALIAS START
 alias vi='vim'
 alias g11='g++ -std=c++11 -g'
@@ -30,13 +23,18 @@ alias jos='jobs'
 alias vv='vi ~/.vimrc'
 alias vz='vi ~/.zshrc'
 
-
 #alias for Tmux
 alias tmux='tmux -2'
 alias ta='tmux attach -t'
 alias tnew='tmux new -s'
 alias tls='tmux ls'
 alias tkill='tmux kill-session -t'
+
+#alias for fg
+alias f1='fg %1'
+alias f2='fg %2'
+alias f3='fg %3'
+alias f4='fg %4'
 
 #function for python
 pa() {
@@ -55,10 +53,15 @@ pdel() {
 
 # ZSH ALIAS END
 
+
 export TERM="xterm-256color"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.jenv/bin:$HOME/.local/bin:$PATH
+
+#JENV SETTING START
+eval "$(jenv init -)"
+#JENV SETTING END
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
