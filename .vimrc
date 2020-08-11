@@ -109,8 +109,7 @@ set csverb
 ""CSCOPE SETTING END
 
 ""YCM SETTING START
-"let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py'
-let g:ycm_global_ycm_extra_conf = '~/.myconfig/.ycm_extra_conf.py'
+"let g:ycm_global_ycm_extra_conf = '~/.myconfig/.ycm_extra_conf.py'
 
 "To avoid conflict snippets
 let g:ycm_key_list_select_completion = ['<C-j>', '<Down>']
@@ -130,3 +129,9 @@ nnoremap <leader>f :YcmCompleter FixIt<CR>
 "Remove all trailing whitespace by pressing F5
 nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
 ""REMOVE WHITE SPACE END
+
+""C++14 SYNTAX START
+let g:syntastic_cpp_checkers = ['gcc']
+let g:syntastic_cpp_compiler = 'gcc'
+let g:syntastic_cpp_compiler_options = '-std=c++14'
+""C++14 SYNTAX END

@@ -11,27 +11,13 @@ export VISUAL=vim
 export EDITOR="$VISUAL"
 #GITHUB EDITOR = VIM END
 
-#CLANG VARIABLE START
-#export CC='/usr/bin/clang-3.8'
-#export CXX='/usr/bin/clang++-3.8'
-export CC='/usr/bin/clang'
-export CXX='/usr/bin/clang++'
-#CLANG VARIABLE END
-
-#DIR COLOR SETTING START
-#eval `dircolors ~/.dircolors-solarized/dircolors.256dark`
-#eval `dircolors ~/.dircolors-zenburn/dircolors`
-#DIR COLOR SETTING END
-
-#export CLICOLOR=YES
-
 #FOR KOREAN START
 export LANG="ko_KR.UTF-8"
 export LC_ALL="ko_KR.UTF-8"
 # FOR KOREAN END
 
 #YCM SETTTING START
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib:/usr/local/lib:/usr/local/llvm38/lib/:/system/lib
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/lib:/usr/local/lib:/usr/local/llvm38/lib/:/system/lib
 #export LD_LIBRARY_PATH=/root/audit-userspace/lib:$LD_LIBRARY_PATH:/lib:/usr/local/llvm38/lib/:/system/lib
 #YCM SETTING END
 
@@ -69,18 +55,10 @@ pdel() {
 
 # ZSH ALIAS END
 
-## POWERLINE SETTING START¬
-#if [[ -r /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh ]]; then
-#    source /usr/local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
-#fi
-## POWERLINE SETTING END¬
-
 export TERM="xterm-256color"
-#export TERM="xterm-color"
-#export TERM="xterm"
 
 # If you come from bash you might have to change your $PATH.
-export PATH=/usr/lib/ccache:$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -98,13 +76,6 @@ ZSH_THEME=".agnoster_py" #awesome with python virenv
 #ZSH_THEME="arrow"
 
 
-## POWERLINE SETTING START
-#POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time context dir vcs)
-#POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status rbenv)
-#POWERLEVEL9K_STATUS_VERBOSE=false
-#POWERLEVEL9K_SHORTEN_STRATEGY="truncate_middle"
-#POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
-## POWERLINE SETTING END
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
