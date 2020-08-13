@@ -13,6 +13,7 @@ git_url_array=( "https://github.com/robbyrussell/oh-my-zsh.git"
             "https://github.com/zdharma/fast-syntax-highlighting.git"
             "https://github.com/djui/alias-tips.git"
             "https://github.com/jenv/jenv.git"
+            "https://github.com/tmux-plugins/tpm"
             )
 
 regacy_dir_array=( "oh-my-zsh"
@@ -26,7 +27,10 @@ regacy_dir_array=( "oh-my-zsh"
             ".Vundle.vim"
             ".Zenburn"
             ".fonts"
-            ".vim")
+            ".vim"
+            ".jenv"
+            ".tpm"
+            )
 
 for regacy_dir_element in ${regacy_dir_array[@]}
 do
@@ -50,5 +54,6 @@ mv oh-my-zsh .oh-my-zsh
 mv fast-syntax-highlighting .oh-my-zsh/custom/plugins/fast-syntax-highlighting
 mv alias-tips .oh-my-zsh/custom/plugins/alias-tips
 mv fonts .fonts
-mv jenv ~/.jenv
+mv jenv .jenv
+mv tpm .tpm
 echo "=== GIT CLONE END ==="

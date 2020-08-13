@@ -58,6 +58,7 @@ pkg_array=( "tmux"
             "bison"
             "flex"
             "libssl-dev"
+            "xsel"
             )
 
 

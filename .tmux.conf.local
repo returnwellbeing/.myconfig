@@ -16,3 +16,10 @@ bind -n M-l select-pane -R
 
 # Reload tmux config
 bind-key r source-file ~/.tmux.conf \; display-message "Configuration reloaded"
+
+# Install tmux plugins
+set -g @plugin 'tmux-plugins/tmux-yank'
+
+# MUST BE BOTTOM
+# Install tmux plugins
+run '~/.tmux/plugins/tpm/tpm'

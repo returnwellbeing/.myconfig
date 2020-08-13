@@ -12,7 +12,9 @@ sym_array=( ".vimrc"
             ".tmux.conf.local"
             ".oh-my-zsh"
             ".gitconfig"
-            ".fonts")
+            ".fonts"
+            ".jenv"
+            )
 
 for sym_element in ${sym_array[@]}
 do
