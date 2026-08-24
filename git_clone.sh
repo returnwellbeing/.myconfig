@@ -5,30 +5,24 @@ BASEDIR=$PWD
 ### GIT CLONE ###
 echo "=== GIT CLONE START ==="
 git_url_array=( "https://github.com/robbyrussell/oh-my-zsh.git"
-            "https://github.com/github/gitignore.git"
-            "https://github.com/vim/vim.git"
             "https://github.com/VundleVim/Vundle.vim.git"
             "https://github.com/jnurmine/Zenburn.git"
             "https://github.com/powerline/fonts.git"
-            "https://github.com/zdharma/fast-syntax-highlighting.git"
+	    "https://github.com/zdharma-continuum/fast-syntax-highlighting.git"
             "https://github.com/djui/alias-tips.git"
-            "https://github.com/jenv/jenv.git"
             "https://github.com/tmux-plugins/tpm"
             )
 
 regacy_dir_array=( "oh-my-zsh"
-            "gitignore"
             "vim"
             "Vundle.vim"
             "Zenburn"
             "fonts"
             ".oh-my-zsh"
-            ".gitignore"
             ".Vundle.vim"
             ".Zenburn"
             ".fonts"
             ".vim"
-            ".jenv"
             ".tpm"
             )
 

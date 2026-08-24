@@ -2,6 +2,10 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
+" Vundle is optional. Without the checkout present vundle#begin() raises E117
+" and aborts the rest of this file, so guard the whole block on it.
+if isdirectory(expand('~/.vim/bundle/Vundle.vim'))
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -12,26 +16,29 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " added nerdtree
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 
 " syntax checking
-Plugin 'scrooloose/syntastic'
+"Plugin 'scrooloose/syntastic'
 
 " YouCompleteMe
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 " YouCompleteMe-Generator
-Plugin 'rdnetto/YCM-Generator'
+"Plugin 'rdnetto/YCM-Generator'
 
 " color schemes
 Plugin 'jnurmine/Zenburn'
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
 
 " clang-format
-Plugin 'rhysd/vim-clang-format'
+"Plugin 'rhysd/vim-clang-format'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
+
+endif
+
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:
 filetype plugin on

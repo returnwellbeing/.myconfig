@@ -1,4 +1,4 @@
-bind-key \ split-window -h -c "#{pane_current_path}"
+bind-key '\' split-window -h -c "#{pane_current_path}"
 bind-key - split-window -v -c "#{pane_current_path}"
 
 #bind -n C-n next-window

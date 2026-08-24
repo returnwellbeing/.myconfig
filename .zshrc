@@ -1,3 +1,5 @@
+. "$HOME/.local/bin/env"
+
 #CSCOPE ENV START
 export CSCOPE_DB=$HOME/test.kern/linux-5.1/cscope.out
 #CSCOPE ENV ENd
@@ -12,8 +14,11 @@ export EDITOR="$VISUAL"
 #GITHUB EDITOR = VIM END
 
 #FOR KOREAN START
-export LANG="ko_KR.UTF-8"
-export LC_ALL="ko_KR.UTF-8"
+# ko_KR.UTF-8 is not generated on every host. Falling back to a locale that
+# does not exist drops LC_CTYPE to POSIX, which breaks the multibyte glyphs in
+# the agnoster theme ("character not in range"). LC_ALL is left unset on
+# purpose so individual LC_* categories stay overridable.
+export LANG="en_US.UTF-8"
 # FOR KOREAN END
 
 #ZSH ALIAS START
@@ -54,14 +59,7 @@ pdel() {
 # ZSH ALIAS END
 
 
-export TERM="xterm-256color"
-
-# If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.jenv/bin:$HOME/.local/bin:$PATH
-
-#JENV SETTING START
-eval "$(jenv init -)"
-#JENV SETTING END
+#export TERM="xterm-256color"
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
